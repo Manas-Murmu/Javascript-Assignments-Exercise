@@ -20,6 +20,16 @@
   </body>
 
   <script>
-    //write code here
+    let counter = 0;
+    function increase() {
+      counter = counter + 1;
+      let val = (document.getElementById("number").innerText = counter);
+      console.log(counter);
+    }
+    function decrease() {
+      counter = counter - 1;
+      let val = (document.getElementById("number").innerText = counter);
+      console.log(counter);
+    }
   </script>
 </html>

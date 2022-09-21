@@ -18,19 +18,31 @@ const faqData = [
   },
 ];
 
-const accordianBody;
+// const accordianBody;
 const faqs = [];
 
 function showFaq() {
-  
+  let div = document.createElement("div");
+  div.className = "accordian_body";
+
+  faqData.forEach((e) => {
+    let faqHeading = e.question;
+    faqs.push(faqHeading);
+  });
+
+  for (let i = 0; i < faqs.length; i++) {
+    const element = document.createElement("h3");
+    element.className = "faq";
+    element.innerText = faqs[i];
+    div.appendChild(element);
+    document.body.appendChild(div);
+  }
 }
 
-function createFaq() {
-  
-}
+showFaq();
 
-function btnStatusUpdate() {
-  
-}
+console.log(faqs);
 
+function createFaq() {}
 
+function btnStatusUpdate() {}

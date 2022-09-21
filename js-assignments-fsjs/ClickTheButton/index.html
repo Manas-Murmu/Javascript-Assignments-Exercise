@@ -14,6 +14,12 @@
     </div>
   </body>
   <script>
-    // write code here
+    let count = 0;
+    let h4 = document.querySelector("#counter");
+    function increase() {
+      count = count + 1;
+      h4.innerHTML = count;
+      console.log(count);
+    }
   </script>
 </html>
