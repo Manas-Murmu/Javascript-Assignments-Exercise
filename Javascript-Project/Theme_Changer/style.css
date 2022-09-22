@@ -1,0 +1,33 @@
+body {
+  background-color: #d4d0d0;
+  text-align: center;
+  border: 1px solid rgb(207, 80, 80);
+  padding: 50px;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 0.5s all ease-in;
+}
+h1 {
+  color: #ce7c18;
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.darkMode {
+  background-color: #302f2f;
+  color: #f3f3f3;
+  transition: 0.5s all ease-in;
+}
+
+button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: #87d4d4;
+  cursor: pointer;
+}
