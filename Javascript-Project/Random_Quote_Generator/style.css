@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poiret+One&family=Roboto+Mono:wght@700&display=swap");
+body {
+  background-color: azure;
+}
+.container {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  max-width: 500;
+}
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  color: #ff3456;
+  font-weight: 200;
+}
+button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: rgb(111, 173, 18);
+  color: white;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  margin-top: 50px;
+}
+p {
+  margin: 20px;
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+}
+.author {
+  font-size: 20px;
+  color: #6414e6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
