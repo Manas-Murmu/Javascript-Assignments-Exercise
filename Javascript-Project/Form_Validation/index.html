@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <!-- <form>
+      User Name
+      <input type="text" name="userName" id="name" />
+      <br />
+      Email Address
+      <input type="text" name="userName" id="email" />
+      <br />
+      Password
+      <input type="text" name="userName" id="password" />
+      <br />
+      Confirm Password
+      <input type="text" name="userName" id="confirmpassword" />
+      <p class="error" id="error"></p>
+    </form> -->
+    <div class="login-page">
+      <h1>Sign Up Form</h1>
+      <div class="form">
+        <form class="login-form">
+          <input type="text" placeholder="Username" name="username" id="name" />
+          <input type="email" placeholder="Email" name="email" id="email" />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            id="password"
+          />
+          <input
+            type="text"
+            placeholder="Confirm Password"
+            name="confirmpassword"
+            id="confirmpassword"
+          />
+          <p class="error" id="error"></p>
+          <button type="button" onclick="handleClick()">Submit</button>
+          <p class="message">
+            Not registered? <a href="#">Create an account</a>
+          </p>
+        </form>
+      </div>
+    </div>
+    <!-- <button type="submit" onclick="validation()">Submit</button> -->
+    <script src="./scriptt.js"></script>
+  </body>
+</html>
