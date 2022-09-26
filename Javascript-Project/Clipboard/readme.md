@@ -1,4 +1,4 @@
-## Palindrom Checker Using Javascript 🔁✔️🔄💬
+## Clipboard Using Javascript 🏷️📑🖊️📋
 
 ![Badge](https://img.shields.io/badge/Manas--Ranjan--Murmu-Javascript--Project-blue) ![Badge](https://img.shields.io/badge/LCO-Full%20Stack%20Javascript%20Bootcamp-orange)
 ![](https://img.shields.io/badge/HTML-CSS-green) ![](https://img.shields.io/badge/JAVASCRIPT-red)
@@ -7,7 +7,7 @@
 
 ---
 
-## Live Link [Demo](https://manas-murmu-palindrome-checker.netlify.app/)
+## Live Link [Demo](https://manas-murmu-clipboard.netlify.app/)
 
 ### Screenshot
 

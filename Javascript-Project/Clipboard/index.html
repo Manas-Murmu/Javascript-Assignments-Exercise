@@ -13,12 +13,28 @@
       <label for="input" class="inputlabel">Enter Something </label>
       <input type="text" name="input" id="inputvalue" />
       <br />
-      <button class="btn btn-success" id="btn">Submit</button>
+      <!-- <button class="btn btn-success" id="btn">Submit</button> -->
+
+      <div class="tooltip">
+        <button class="btn" onclick="copy()" onmouseout="outFunc()">
+          <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+          Copy text
+        </button>
+      </div>
     </div>
-    <div id="renderedItems">
-      <!-- <button class="btncopy">Copy Text</button> -->
-    </div>
+    <!-- <div id="renderedItems"></div> -->
 
     <script src="./app.js"></script>
+    <!-- <script>
+      function copyElementText(id) {
+        var text = document.querySelector(".p").innerText;
+        var elem = document.createElement("textarea");
+        document.body.appendChild(elem);
+        elem.value = text;
+        elem.select();
+        document.execCommand("copy");
+        document.body.removeChild(elem);
+      }
+    </script> -->
   </body>
 </html>
