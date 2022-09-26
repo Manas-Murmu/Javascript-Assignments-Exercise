@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poiret+One&family=Roboto+Mono:wght@700&display=swap");
+body {
+  background-color: beige;
+}
+.container {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  max-width: 500;
+}
+h1 {
+  font-family: "Pacifico";
+  font-size: 50px;
+  color: #f14b09c4;
+  font-weight: 200;
+}
+button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: rgb(111, 173, 18);
+  color: white;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  margin-top: 10px;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+p {
+  margin: 20px;
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+  color: darkblue;
+}
+
+input {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputlabel {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  padding: 10px;
+}
